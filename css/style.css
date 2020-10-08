@@ -1,0 +1,41 @@
+/* general reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+
+.d-flex{
+    display: flex;
+}
+
+/* container-100vh */
+.container-100vh{
+    height: 100vh;
+    background-color: rgb(224, 176, 192);
+    flex-direction: column;
+}
+
+
+/* sidebar */
+
+/* main-content */
+.main-content{
+    background-color: rgba(241, 206, 206, 0.7);
+    flex-grow: 1;
+}
+
+/* aside */
+aside{
+    background-color: rgba(219, 144, 3, 0.5);
+    flex-basis: 200px;
+
+}
+
+/* footer */
+footer{
+    background-color: rgba(137, 231, 94, 0.5);
+    flex-basis: 150px;
+}
