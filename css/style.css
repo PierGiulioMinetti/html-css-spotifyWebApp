@@ -80,6 +80,11 @@ background-image: linear-gradient(turquoise, black);
 .sidebar-top ul li a i {
     padding-right: 5px;
     color: white;
+    
+}
+
+.sidebar-top ul li a{
+    color: white;
     opacity: 0.8;
 }
 
