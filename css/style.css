@@ -219,6 +219,22 @@ list-style: none;
     /* margin: 0 10px; */
     padding: 0 10px;
     border: 1px solid black;
+    position: relative;
+}
+
+.overlay-cover{
+    width: 91%;
+    height: 98%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0 10px;
+    opacity: 0;
+}
+.overlay-cover:hover{
+    opacity: 0.3;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 800px) {
