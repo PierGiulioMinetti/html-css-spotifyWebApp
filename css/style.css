@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
 /* utility */
 .pos-rel{
     position: relative;
@@ -60,6 +63,7 @@ background-image: linear-gradient(turquoise, black);
     margin-left: 20px;
     margin-top: 10px;
     max-width: 120px;
+    opacity: 0.8;
 }
 
 .sidebar-top ul {
@@ -70,8 +74,14 @@ background-image: linear-gradient(turquoise, black);
 
 .sidebar-top ul li  {
     margin-top: 10px;
+    font-size: 20px;
 }
 
+.sidebar-top ul li a i {
+    padding-right: 5px;
+    color: white;
+    opacity: 0.8;
+}
 
 .sidebar-bottom{
     height: 50px;
