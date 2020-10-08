@@ -127,6 +127,11 @@ background-image: linear-gradient(turquoise, black);
     background-color: #999;
 }
 
+.nome-playlist ul li a{
+    font-size: 14px;
+    line-height: 0.5;
+}
+
 /* main */
 .main{
     display: flex;
