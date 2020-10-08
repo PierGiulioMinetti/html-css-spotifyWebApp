@@ -110,15 +110,28 @@ list-style: none;
 .container-boxes{
     display: flex;
     padding-left: 10px;
+    flex-wrap: wrap;
 }
 .boxes-cover{
     background-color: red;
-    width: calc(100% / 6);
+    width: calc(100% / 2);
     /* margin: 0 10px; */
     padding: 0 10px;
     border: 1px solid black;
-
 }
+
+@media screen and (min-width: 800px) {
+    .boxes-cover{
+        flex-basis: calc(100% / 4);       
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .boxes-cover{
+        flex-basis: calc(100% / 6);       
+    }
+}
+
 
 .boxes-cover img{
     max-width: 100%;
