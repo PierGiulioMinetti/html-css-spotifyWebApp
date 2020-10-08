@@ -231,10 +231,30 @@ list-style: none;
     bottom: 0;
     padding: 0 10px;
     opacity: 0;
+    color: white;
+    font-size: 30px;
+    
 }
 .overlay-cover:hover{
-    opacity: 0.3;
+    opacity: 0.5;
     cursor: pointer;
+}
+
+.icon-layover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40%;
+}
+
+.icon-layover i{
+    padding: 10px;
+}
+
+.fa-play-circle{
+    font-size: 70px;
+    position: relative;
+    bottom: 30px;
 }
 
 @media screen and (min-width: 800px) {
