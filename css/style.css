@@ -56,6 +56,23 @@ background-image: linear-gradient(turquoise, black);
 /* opacity: 0.7; */
 }
 
+.sidebar-top img {
+    margin-left: 20px;
+    margin-top: 10px;
+    max-width: 120px;
+}
+
+.sidebar-top ul {
+    margin-left: 20px;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.sidebar-top ul li  {
+    margin-top: 10px;
+}
+
+
 .sidebar-bottom{
     height: 50px;
     background-image: linear-gradient(turquoise, black);
