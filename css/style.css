@@ -6,6 +6,13 @@
 }
 
 /* utility */
+.pos-rel{
+    position: relative;
+}
+
+.pos-abs{
+    position: absolute;
+}
 
 .d-flex{
     display: flex;
@@ -31,9 +38,47 @@
 aside{
     background-color: rgba(219, 144, 3, 0.5);
     flex-basis: 200px;
-
+    display: flex;
+    flex-direction: column;
 }
 
+.sidebar-top{
+flex-grow: 1;
+}
+
+.sidebar-bottom{
+    height: 50px;
+    background-color: red;
+}
+
+/* main */
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-top{
+    background-color: purple;
+    height: 150px;
+    width: calc(100vw - 200px);
+    position: absolute;
+    z-index: 2;
+}
+
+.main-bottom{
+    flex-grow: 1;
+    z-index: 0;
+    padding-top: 160px;
+    background-color: green;
+    width: calc(100vw - 200px);
+    height: calc(100vh - 150px);
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    
+
+}
 /* footer */
 footer{
     background-color: rgba(137, 231, 94, 0.5);
