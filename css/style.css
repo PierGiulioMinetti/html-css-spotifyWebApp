@@ -7,6 +7,7 @@
 
 a{
     text-decoration: none;
+    color: white;
 }
 /* utility */
 .pos-rel{
@@ -88,9 +89,42 @@ background-image: linear-gradient(turquoise, black);
     opacity: 0.8;
 }
 
+.sidebar-top ul li:hover a{
+    color: orange;
+}
+
 .sidebar-bottom{
     height: 50px;
     background-image: linear-gradient(turquoise, black);
+}
+
+.sidebar-top h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    opacity: 0.8;
+}
+
+.crea-playlist{
+    position: relative;
+    line-height: 30px;
+    padding-left: 50px;
+    width: 100%;
+    margin-top: 10px;
+    color: #545454;
+}
+
+.crea-playlist::before{
+    left: 15px;
+    content: '+';
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: #999;
 }
 
 /* main */
