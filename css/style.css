@@ -42,6 +42,14 @@ aside{
     flex-direction: column;
 }
 
+@media screen and (max-width: 768px) {
+    aside{
+        
+        flex-basis: 50px;
+        
+    }
+}
+
 .sidebar-top{
 flex-grow: 1;
 }
@@ -70,6 +78,20 @@ flex-grow: 1;
     padding-left: 150px;
 }
 
+@media screen and (max-width: 768px) {
+    .main-top{
+        
+        width: calc(100vw - 50px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-bottom.pos-abs{
+        
+        width: calc(100vw - 50px);
+    }
+}
+
 .btn-upgrade{
     height: 30px;
     border: 1px solid white;
@@ -86,6 +108,7 @@ flex-grow: 1;
 }
 
 .main-bottom{
+    
     flex-grow: 1;
     z-index: 0;
     padding-top: 110px;
