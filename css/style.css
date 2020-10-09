@@ -337,14 +337,28 @@ list-style: none;
     opacity: 0.5;
 }
 
-
-
 .fa-play-circle{
     font-size: 70px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.fa-heart{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: skewY(-50%);
+}
+
+.fa-ellipsis-h{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: skewY(-50%);
 }
 
 .icon-container{
