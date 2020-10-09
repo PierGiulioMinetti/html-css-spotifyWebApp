@@ -11,12 +11,12 @@ a{
     text-decoration: none;
     color: white;
 }
+
 /* utility */
 .pos-rel{
     position: relative;
     
 }
-
 
 .pos-abs{
     position: absolute;
@@ -26,6 +26,9 @@ a{
     display: flex;
 }
 
+.pad-left-10{
+    padding-left: 10px;
+}
 /* container-100vh */
 .container-100vh{
     height: 100vh;
@@ -174,8 +177,8 @@ background-image: linear-gradient(turquoise, black);
 }
 
 .main-top{
-    display: flex;
-    background-color: rgba(14, 121, 10, 0.7);
+    
+    background-color: rgba(140, 245, 137, 0.315);
     height: 100px;
     width: 100%;
     z-index: 3;
@@ -183,16 +186,25 @@ background-image: linear-gradient(turquoise, black);
     padding-left: 150px;
     position: absolute;
 }
-
+/* sono quiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
 .btn-upgrade{
+    max-width: 200px;
     height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
     border: 1px solid white;
     padding: 10px 30px;
-    justify-content: center;
-    align-self: center;
-    line-height: 10px;
+    text-align: center;
+    line-height: 9px;
     border-radius: 5px;
     margin-right: 100px;
+}
+
+.btn-upgrade:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .btn-upgrade a{
