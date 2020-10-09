@@ -275,56 +275,7 @@ list-style: none;
 .round-img{
     border-radius: 50%;
 }
-/*
-.overlay-cover{
-    width: 93%;
-    height: 99%;
-    background-color: black;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    padding: 0 10px;
-    opacity: 0;
-    color: white;
-    font-size: 30px;
-    
-}
-.overlay-cover:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
 
-.icon-layover{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 40%;
-}
-
-.icon-layover i{
-    padding: 10px;
-}
-
-.fa-play-circle{
-    font-size: 70px;
-    position: relative;
-    bottom: 30px;
-}
-
-
-/*
-@media screen and (min-width: 800px) {
-    .li-container{
-        width: calc(100% / 4);       
-    }
-}
-
-@media screen and (min-width: 1023px) {
-    .li-container{
-        width: calc(100% / 6);       
-    }
-}
-*/
 
 
 /* LAYOVER PART */
@@ -338,7 +289,7 @@ list-style: none;
     width: 100%;
     height: 100%;
     opacity: 0;
-    /* transition: opacity 0.3s; */
+    
 }
 
 .layover:hover{
@@ -346,7 +297,7 @@ list-style: none;
 }
 
 .fa-play-circle{
-    font-size: 70px;
+    font-size: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -354,25 +305,42 @@ list-style: none;
 }
 
 .fa-heart{
-    font-size: 40px;
+    font-size: 20px;
     position: absolute;
     top: 50%;
-    left: 10%;
-    transform: skewY(-50%);
+    left: 12%;
+    transform: translateY(-50%);
 }
 
 .fa-ellipsis-h{
-    font-size: 40px;
+    font-size: 20px;
     position: absolute;
     top: 50%;
-    right: 10%;
-    transform: skewY(-50%);
+    right: 12%;
+    transform: translateY(-50%);
 }
 
 .icon-container{
     position: relative;
     height: 100%;
     width: 100%;
+}
+
+@media screen and (min-width: 1250px) {
+    .fa-play-circle{
+        font-size: 50px;
+        
+    }
+    
+    .fa-heart{
+        font-size: 30px;
+        
+    }
+    
+    .fa-ellipsis-h{
+        font-size: 30px;
+        
+    }
 }
 
 /* LAYOVER PART UP HERE */
