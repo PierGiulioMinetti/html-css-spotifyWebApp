@@ -243,15 +243,23 @@ list-style: none;
 
 .ul-container{
     display:flex;
+    flex-wrap: wrap;
   }
   .li-container{
     width:calc((100% / 6) - 10px);
     list-style:none;
-    margin: 0 20px;
-      height:300px;
+    margin: 0 5px;
+      /* height:300px; */
     background-color:grey;
     border: 1px solid black;
+    text-align: center;
+    padding: 10px ;
   }
+
+.img-gallery{
+    display: inline-block;
+    max-width: 100%;
+}
 
 .ul-album{
     display: flex;
