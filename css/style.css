@@ -297,6 +297,11 @@ list-style: none;
 
 .layover:hover{
     opacity: 0.5;
+    cursor: pointer;
+}
+
+h3>a:hover{
+    text-decoration: underline;
 }
 
 .fa-play-circle{
