@@ -292,6 +292,10 @@ list-style: none;
     
 }
 
+.lay-round{
+    border-radius: 50%;
+}
+
 .layover:hover{
     opacity: 0.5;
 }
