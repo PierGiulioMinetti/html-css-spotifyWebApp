@@ -272,7 +272,7 @@ list-style: none;
     margin: 0 15px;
 }
 
-
+/*
 .overlay-cover{
     width: 93%;
     height: 99%;
@@ -307,6 +307,7 @@ list-style: none;
     position: relative;
     bottom: 30px;
 }
+*/ 
 
 /*
 @media screen and (min-width: 800px) {
@@ -322,6 +323,21 @@ list-style: none;
 }
 */
 
+
+/* LAYOVER PART */
+.container-img-gallery {
+    position: relative;
+}
+
+.layover {
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+/* LAYOVER PART UP HERE */
 
 .boxes-cover img{
     max-width: 100%;
