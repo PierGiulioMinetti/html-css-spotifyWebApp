@@ -196,6 +196,14 @@ background-color: #000;
     align-items: center;
 }
 
+.sidebar-bottom a>span:hover{
+color: rgb(4, 250, 4);
+}
+
+.sidebar-bottom a>span:active{
+    color: red;
+}
+
 .sidebar-bottom h3{
     margin-top: 10px;
     font-size: 25px;
@@ -276,7 +284,6 @@ background-color: #000;
 }
 
 .main-bottom{
-    
     flex-grow: 1;
     z-index: 0;
     padding-top: 110px;
@@ -301,6 +308,12 @@ list-style: none;
 
 .list-titles ul li:hover a{
     color: #14f701c4;
+}
+
+.list-titles ul li a:focus {
+    border-bottom: 2px solid rgb(65, 245, 10);
+    padding-bottom: 3px;
+    
 }
 
 /* GALLERY SECTION */
