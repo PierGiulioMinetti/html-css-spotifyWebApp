@@ -232,7 +232,7 @@ background-image: linear-gradient(turquoise, black);
     }
 }
 
-/* main */
+/* MAIN */
 .main{
     width: 100%;
     position: relative;
@@ -436,11 +436,15 @@ h3>a:hover{
 .description h2 {
     margin: 20px 0;
     color: white;
-    padding-left: 10px;
+    padding-left: 20px;
+}
+
+.description>p{
+    padding-left: 20px;
 }
 
 
-/* footer */
+/* FOOTER */
 footer{
     background-color: #444343;
     background-image: linear-gradient(turquoise, black);
@@ -566,7 +570,7 @@ footer{
 .player-round {
     position: absolute;
     top: -7px;
-    left: 39%;
+    left: 38%;
     z-index: 2;
     opacity: 0;
 }
@@ -582,6 +586,11 @@ footer{
     opacity: 0.8;
 }
 
+.right-icon-container:hover i{
+    color: gray;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1052px) {
     .right-icon-container i{
         padding: 1px;
@@ -589,8 +598,6 @@ footer{
         opacity: 0.8;
     }
 }
-
-
 
 .right-line-player{
     width: 60%;
