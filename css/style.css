@@ -212,7 +212,7 @@ background-image: linear-gradient(turquoise, black);
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .sidebar-bottom::before{
         content: '';
         display: none;
