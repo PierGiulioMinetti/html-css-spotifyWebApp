@@ -37,7 +37,6 @@ a{
 }
 
 
-/* sidebar */
 
 /* main-content */
 .main-content{
@@ -45,6 +44,7 @@ a{
     flex-grow: 1;
 }
 
+/* sidebar */
 /* aside */
 aside{
     background-color: rgba(219, 144, 3, 0.5);
@@ -67,11 +67,21 @@ background-image: linear-gradient(turquoise, black);
 /* opacity: 0.7; */
 }
 
-.sidebar-top img {
-    margin-left: 20px;
+.sidebar-top ul li a img {
+    margin-left: 5px;
     margin-top: 10px;
-    max-width: 120px;
+    max-width: 25px;
     opacity: 0.8;
+    vertical-align: baseline;
+    position: relative;
+    top: 5px;
+}
+
+.spotify-logo{
+    width: 150px;
+    position: relative;
+    top: 10px;
+    left: 5px;
 }
 
 .sidebar-top ul {
@@ -186,7 +196,7 @@ background-image: linear-gradient(turquoise, black);
     padding-left: 150px;
     position: absolute;
 }
-/* sono quiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
+/* modificare quiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
 .btn-upgrade{
     max-width: 200px;
     height: 30px;
