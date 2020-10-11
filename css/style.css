@@ -131,6 +131,14 @@ background-color: #000;
     color: #14f701c4;
 }
 
+.sidebar-top img:hover{
+    transform: scale(1.1);
+}
+
+.sidebar-top ul li a img:hover{
+    transform: scale(1.4);
+}
+
 .sidebar-bottom{
     height: 100px;
     background-color: #000;
@@ -180,6 +188,13 @@ background-color: #000;
     background-color: #999;
 }
 
+.crea-playlist:hover{
+    color: #14f701c4;
+}
+
+.crea-playlist a:hover{
+    color: #14f701c4;
+}
 
 .nome-playlist ul li a{
     font-size: 14px;
@@ -238,6 +253,10 @@ color: rgb(4, 250, 4);
         transform: translate(-50%);
         
     }
+}
+
+.sidebar-bottom a>i:hover{
+    transform: scale(1.5);
 }
 
 /* MAIN */
