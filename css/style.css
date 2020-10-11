@@ -379,7 +379,7 @@ h3>a:hover{
     text-decoration: underline;
 }
 
-.fa-play-circle{
+.icon-container>.fa-play-circle{
     font-size: 40px;
     position: absolute;
     top: 50%;
@@ -387,7 +387,7 @@ h3>a:hover{
     transform: translate(-50%, -50%);
 }
 
-.fa-heart{
+.icon-container>.fa-heart{
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -395,7 +395,7 @@ h3>a:hover{
     transform: translateY(-50%);
 }
 
-.fa-ellipsis-h{
+.icon-container>.fa-ellipsis-h{
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -410,17 +410,17 @@ h3>a:hover{
 }
 
 @media screen and (min-width: 1250px) {
-    .fa-play-circle{
+    .icon-container>.fa-play-circle{
         font-size: 50px;
         
     }
     
-    .fa-heart{
+    .icon-container>.fa-heart{
         font-size: 30px;
         
     }
     
-    .fa-ellipsis-h{
+    .icon-container>.fa-ellipsis-h{
         font-size: 30px;
         
     }
@@ -486,4 +486,8 @@ footer{
     text-align: center;
     border: 1px solid white;
     flex-direction: column;
+}
+
+.command-player-top{
+    border: 1px solid white;
 }
