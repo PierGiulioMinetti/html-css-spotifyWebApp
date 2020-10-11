@@ -486,8 +486,20 @@ footer{
     text-align: center;
     border: 1px solid white;
     flex-direction: column;
+    height: 100%;
 }
 
 .command-player-top{
     border: 1px solid white;
+    height: 50%;
+}
+
+.command-player-top>i{
+    padding: 10px;
+}
+
+.command-player-top>.fa-play-circle{
+    font-size: 30px;
+    position: relative;
+    top: 5px;
 }
