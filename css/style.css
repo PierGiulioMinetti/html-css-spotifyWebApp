@@ -586,7 +586,7 @@ footer{
 .fa-folder:hover,
 .fa-random:hover,
 .fa-step-backward:hover,
-.fa-play-circle:hover,
+.command-player-top>.fa-play-circle:hover,
 .fa-step-forward:hover,
 .fa-redo-alt:hover,
 .fa-list:hover,
