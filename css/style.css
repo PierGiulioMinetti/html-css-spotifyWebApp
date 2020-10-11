@@ -506,6 +506,10 @@ footer{
     justify-content: space-evenly;
 }
 
+.left-footer .nome-album a{
+    padding-left: 5px;
+}
+
 .left-footer img {
     max-width: 50px;
 }
@@ -680,4 +684,14 @@ footer{
 .line-player-small:hover .player-round{
     opacity: 1;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+    .player-round {
+        position: absolute;
+        top: -7px;
+        left: 35%;
+        z-index: 2;
+        opacity: 0;
+    }
 }
