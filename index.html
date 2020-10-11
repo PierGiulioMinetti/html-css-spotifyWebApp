@@ -15,39 +15,45 @@
         <div class="main-content d-flex">
 
             <!-- sidebar -->
-            <aside>
+            <aside id="sidebar-resize">
                 <div class="sidebar-top">
-                    <img class="spotify-logo" src="./img-spotify/logo.svg" alt="">
-
+                    <img class="spotify-logo hide" src="./img-spotify/logo.svg" alt="">
+                    <img class="logo-small" src="./img-spotify/logo-small.svg" alt="">
                     <ul>
                         <li>
                             <a href="">
                                 <img src="./img-spotify/home.svg" alt="">
+                               <span class="hide">
                                 Home
+                               </span> 
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <img src="./img-spotify/search.svg" alt="">
-                                Cerca
+                                <span class="hide">
+                                    Cerca
+                                </span> 
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <img src="./img-spotify/libreria.svg" alt="">
-                                La tua libreria
+                                <span class="hide">
+                                    La tua libreria
+                                </span>
                             </a>
                         </li>
                     </ul>
-                    <h2>
+                    <h2 class="hide">
                         PLAYLIST
                     </h2>
-                    <div class="crea-playlist">
+                    <div class="crea-playlist hide">
                         <a href="">
                             Crea playlist
                         </a> 
                     </div>
-                    <div class="nome-playlist">
+                    <div class="nome-playlist hide">
                         <ul>
                             <li>
                                 <a href="">
@@ -91,11 +97,15 @@
                     <a href="">
                         <i class="fas fa-arrow-circle-down">
                         </i> 
-                        Installa app
+                        <span class="hide">
+                            Installa app
+                        </span>
                     </a>
                     <h3>
                         <img src="./img-spotify/profile.svg" alt="">
-                         John Doe
+                         <span class="hide">
+                             John Doe
+                         </span>
                     </h3>
                 </div>
             </aside>
