@@ -277,7 +277,7 @@ color: rgb(4, 250, 4);
     padding-left: 150px;
     position: absolute;
 }
-/* modificare quiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
+
 .btn-upgrade{
     max-width: 200px;
     height: 30px;
@@ -294,12 +294,17 @@ color: rgb(4, 250, 4);
 }
 
 .btn-upgrade:hover{
-    transform: scale(1.1);
+    transform: scale(1.4);
     cursor: pointer;
+    border: 1px solid  rgb(0, 238, 0);
 }
 
 .btn-upgrade a{
     color: white;
+}
+
+.btn-upgrade:hover a{
+    color: rgb(0, 238, 0);
 }
 
 .main-bottom{
@@ -323,6 +328,10 @@ list-style: none;
 
 .list-titles ul a{
     margin: 0 10px;
+}
+
+.list-titles ul li {
+    padding: 10px 0;
 }
 
 .list-titles ul li:hover a{
