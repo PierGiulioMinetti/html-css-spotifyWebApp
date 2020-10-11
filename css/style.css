@@ -445,4 +445,45 @@ footer{
     background-color: #444343;
     background-image: linear-gradient(turquoise, black);
     flex-basis: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-footer,
+.right-footer {
+    width: 25%;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.left-footer{
+    justify-content: space-evenly;
+}
+
+.left-footer img {
+    max-width: 50px;
+}
+
+.nome-album p{
+    color: rgb(100, 100, 100);
+}
+
+.heart-html{
+    font-size: 30px;
+    color:  rgb(100, 100, 100);
+}
+
+.fa-folder{
+    font-size:21px;
+    position: relative;
+    bottom: 3px;
+    left: 2px;
+    color: rgb(100, 100, 100);
+}
+
+.central-footer{
+    width: 50%;
+    text-align: center;
+    border: 1px solid white;
+    flex-direction: column;
 }
