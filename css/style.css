@@ -115,6 +115,15 @@ background-image: linear-gradient(turquoise, black);
     background-image: linear-gradient(turquoise, black);
 }
 
+.sidebar-bottom h3 img {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+}
+
 .sidebar-top h2{
     margin-left: 20px;
     margin-top: 20px;
