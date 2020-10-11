@@ -499,11 +499,6 @@ footer{
     height: 50%;
 }
 
-.command-player-top:hover i {
-    cursor: pointer;
-    color: rgb(110, 99, 99);
-}
-
 .command-player-top>i{
     padding: 10px;
 }
@@ -587,9 +582,19 @@ footer{
     opacity: 0.8;
 }
 
-.right-icon-container:hover i{
-    color: gray;
+.icon-album>span:hover,
+.fa-folder:hover,
+.fa-random:hover,
+.fa-step-backward:hover,
+.fa-play-circle:hover,
+.fa-step-forward:hover,
+.fa-redo-alt:hover,
+.fa-list:hover,
+.fa-desktop:hover,
+.fa-volume-up:hover{
+    color: rgb(0, 252, 0);
     cursor: pointer;
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 1052px) {
