@@ -66,6 +66,10 @@ background-image: linear-gradient(turquoise, black);
 /* opacity: 0.7; */
 }
 
+.sidebar-top ul li a:hover span {
+    color: rgb(26, 240, 26);
+}
+
 .logo-small{
     display: none;
 }
