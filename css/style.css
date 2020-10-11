@@ -583,4 +583,36 @@ footer{
 
 .right-line-player{
     width: 60%;
+    align-items: center;
+}
+
+.line-player-small{
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    border:3px solid #535353;
+    background-color: #535353;
+    border-radius: 5px;
+    position: relative;
+}
+
+.line-player-small::before{
+    content: '';
+    display: block;
+    width: 40%;
+    border: 3px solid rgb(199, 193, 193);
+    border-radius: 5px;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+}
+
+.line-player-small:hover .layover-player{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.line-player-small:hover .player-round{
+    opacity: 1;
+    cursor: pointer;
 }
