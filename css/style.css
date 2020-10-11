@@ -503,3 +503,21 @@ footer{
     position: relative;
     top: 5px;
 }
+
+.command-player-bottom{
+    justify-content: space-evenly;
+}
+
+.command-player-bottom-central{
+    width: 80%;
+    align-self: center;
+}
+
+.command-player-bottom-central>div{
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    border:3px solid #535353;
+    background-color: #535353;
+    border-radius: 5px;
+}
