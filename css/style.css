@@ -451,9 +451,9 @@ footer{
 
 .left-footer,
 .right-footer {
-    width: 20%;
+    width: 25%;
     text-align: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .left-footer{
@@ -484,13 +484,13 @@ footer{
 .central-footer{
     width: 40%;
     text-align: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     flex-direction: column;
     height: 100%;
 }
 
 .command-player-top{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 50%;
 }
 
@@ -578,8 +578,19 @@ footer{
 
 .right-icon-container i{
     padding: 5px;
+    font-size: 16px;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1052px) {
+    .right-icon-container i{
+        padding: 1px;
+        font-size: 10px;
+        opacity: 0.8;
+    }
+}
+
+
 
 .right-line-player{
     width: 60%;
